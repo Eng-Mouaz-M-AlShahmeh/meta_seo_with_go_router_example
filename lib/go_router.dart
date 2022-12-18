@@ -13,16 +13,15 @@ final router = GoRouter(
     GoRoute(
       path: '/',
       builder: (BuildContext context, GoRouterState state) {
-        // TODO:: Define MetaSEO object with optional needed attributes
-        MetaSEO meta = MetaSEO(
-            author: 'Eng Mouaz M AlShahmeh',
-            description: 'First Screen',
-            keywords: 'Flutter, Dart, SEO, Meta, Web');
-
-        // TODO:: add meta seo data for web app
-        meta.seoAuthor();
-        meta.seoDescription();
-        meta.seoKeywords();
+        // TODO:: Add MetaSEO just into Web platform condition
+        if(kIsWeb) {
+          // TODO:: Define MetaSEO object
+          MetaSEO meta = MetaSEO();
+          // TODO:: Add meta seo data for web app as you want
+          meta.seoOGTitle('First Screen');
+          meta.seoDescription('First Screen');
+          meta.seoKeywords('Flutter, Dart, SEO, Meta, Web');
+        }
 
         return const FirstScreen();
       },
@@ -30,16 +29,15 @@ final router = GoRouter(
     GoRoute(
       path: '/second_screen',
       builder: (BuildContext context, GoRouterState state) {
-        // TODO:: Define MetaSEO object with optional needed attributes
-        MetaSEO meta = MetaSEO(
-            author: 'Eng Mouaz M AlShahmeh',
-            description: 'Second Screen',
-            keywords: 'Flutter, Dart, SEO, Meta, Web');
-
-        // TODO:: add meta seo data for web app
-        meta.seoAuthor();
-        meta.seoDescription();
-        meta.seoKeywords();
+        // TODO:: Add MetaSEO just into Web platform condition
+        if(kIsWeb) {
+          // TODO:: Define MetaSEO object
+          MetaSEO meta = MetaSEO();
+          // TODO:: Add meta seo data for web app as you want
+          meta.seoOGTitle('Second Screen');
+          meta.seoDescription('Second Screen');
+          meta.seoKeywords('Flutter, Dart, SEO, Meta, Web');
+        }
 
         return const SecondScreen();
       },
