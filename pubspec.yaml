@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  meta_seo: ^1.0.3 # TODO::add this dependency
+  meta_seo: ^1.0.5 # TODO::add this dependency
   go_router: ^5.2.0 # TODO::add this dependency
 
 dev_dependencies:
