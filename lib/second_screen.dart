@@ -8,11 +8,13 @@ class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Second Screen')),
-        body: Center(
-            child: ElevatedButton(
-              onPressed: () => context.go('/'),
-              child: const Icon(Icons.arrow_forward_outlined),
-            )));
+      appBar: AppBar(title: const Text('Second Screen')),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () => context.go('/'),
+          child: const Icon(Icons.arrow_forward_outlined),
+        ),
+      ),
+    );
   }
 }

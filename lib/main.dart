@@ -9,7 +9,7 @@ void main() {
   // TODO: add this line if you want to hide hash sign # at web routes
   setUrlStrategy(PathUrlStrategy());
   if (kIsWeb) {
-    MetaSEO().seoMetaConfig();
+    MetaSEO().config();
   }
   runApp(const MyApp());
 }

@@ -84,10 +84,10 @@ packages:
     dependency: "direct main"
     description:
       name: go_router
-      sha256: "6dd6b05db749756996b727521b9b9b4ee0968ea4aeb59af2e59383683d6ef34f"
+      sha256: b4bb06205ec607278b6fc23db238278417bca84a3905779cc68d1eb7afae37e2
       url: "https://pub.dev"
     source: hosted
-    version: "6.0.7"
+    version: "6.2.0"
   js:
     dependency: transitive
     description:
@@ -140,10 +140,10 @@ packages:
     dependency: "direct main"
     description:
       name: meta_seo
-      sha256: "742f724f8cd6b6774ce7f53b689fd5442295a6297a8ffb409d744fe27d91d944"
+      sha256: ed6e6be05b2cb4b97e27636d73983376306163628408f62dc7289764ba3b54a5
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.2"
+    version: "3.0.4"
   path:
     dependency: transitive
     description:

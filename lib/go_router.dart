@@ -18,9 +18,9 @@ final router = GoRouter(
           // TODO:: Define MetaSEO object
           MetaSEO meta = MetaSEO();
           // TODO:: Add meta seo data for web app as you want
-          meta.seoOGTitle('First Screen');
-          meta.seoDescription('First Screen');
-          meta.seoKeywords('Flutter, Dart, SEO, Meta, Web');
+          meta.ogTitle(ogTitle: 'First Screen');
+          meta.description(description: 'First Screen');
+          meta.keywords(keywords: 'Flutter, Dart, SEO, Meta, Web');
         }
 
         return const FirstScreen();
@@ -34,9 +34,9 @@ final router = GoRouter(
           // TODO:: Define MetaSEO object
           MetaSEO meta = MetaSEO();
           // TODO:: Add meta seo data for web app as you want
-          meta.seoOGTitle('Second Screen');
-          meta.seoDescription('Second Screen');
-          meta.seoKeywords('Flutter, Dart, SEO, Meta, Web');
+          meta.ogTitle(ogTitle: 'Second Screen');
+          meta.description(description: 'Second Screen');
+          meta.keywords(keywords: 'Flutter, Dart, SEO, Meta, Web');
         }
 
         return const SecondScreen();
