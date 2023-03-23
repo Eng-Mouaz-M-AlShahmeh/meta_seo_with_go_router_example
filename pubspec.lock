@@ -76,7 +76,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_web_plugins:
-    dependency: transitive
+    dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -140,10 +140,10 @@ packages:
     dependency: "direct main"
     description:
       name: meta_seo
-      sha256: ed6e6be05b2cb4b97e27636d73983376306163628408f62dc7289764ba3b54a5
+      sha256: e8dcda6a0dc8730a2d86b6c2a8257f88f7507c3911281d438ee2a82edbf72b21
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.4"
+    version: "3.0.5"
   path:
     dependency: transitive
     description:
